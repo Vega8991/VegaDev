@@ -36,8 +36,8 @@ describe('StackPage', () => {
     expect(container.querySelector('.marquee')).toBeInTheDocument();
   });
 
-  it('renders TypeScript in currently learning section', () => {
+  it('renders Next.js in currently learning section', () => {
     renderPage();
-    expect(screen.getByText('TypeScript')).toBeInTheDocument();
+    expect(screen.getByText('Next.js')).toBeInTheDocument();
   });
 });
