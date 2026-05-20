@@ -152,7 +152,7 @@ export const TRANSLATIONS = {
     },
     skills: {
       competencies: ["Component-based architecture", "Responsive UI development", "REST API design", "State management", "Form validation", "Client-side routing", "Database modelling", "Version control"],
-      tech: ["Angular", "NestJS", "React", "TypeScript", "JavaScript", "NodeJS", "MongoDB", "Tailwind"],
+      tech: ["Angular", "NestJS", "React", "TypeScript", "JavaScript", "NodeJS", "MongoDB", "Tailwind", "HTML5", "CSS3", "Python", "Bootstrap", "PostgreSQL"],
       tools: ["VS Code", "Git", "GitHub", "Docker", "Postman", "Figma", "Slack", "Click Up", ],
     },
     timeline: [
@@ -316,7 +316,7 @@ export const TRANSLATIONS = {
     },
     skills: {
       competencies: ["Arquitectura basada en componentes", "Desarrollo UI responsive", "Diseño de APIs REST", "Gestión de estado", "Validación de formularios", "Enrutamiento en cliente", "Modelado de bases de datos", "Control de versiones"],
-      tech: ["Angular", "NestJS", "React", "TypeScript", "JavaScript", "NodeJS", "MongoDB", "Tailwind"],
+      tech: ["Angular", "NestJS", "React", "TypeScript", "JavaScript", "NodeJS", "MongoDB", "Tailwind", "HTML5", "CSS3", "Python", "Bootstrap", "PostgreSQL"],
       tools: ["VS Code", "Git", "GitHub", "Docker", "Postman", "Figma", "Slack", "Click Up", ],
     },
     timeline: [
