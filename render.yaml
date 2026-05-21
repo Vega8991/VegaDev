@@ -11,7 +11,7 @@ services:
       - key: CONTACT_TO
         sync: false
       - key: FRONTEND_ORIGIN
-        sync: false
+        value: https://vega-portfolio.onrender.com
 
   - type: web
     name: vega-portfolio
@@ -21,7 +21,7 @@ services:
     staticPublishPath: dist
     envVars:
       - key: VITE_API_URL
-        sync: false
+        value: https://vega-portfolio-api.onrender.com
     routes:
       - type: rewrite
         source: /*
