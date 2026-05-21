@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import nodemailer from 'nodemailer';
+import { Resend } from 'resend';
 
 const router = Router();
 
@@ -18,24 +18,14 @@ router.post('/', async (req, res) => {
   if (err) return res.status(400).json({ ok: false, error: err });
 
   const { name, email, message } = req.body;
-
-  const transporter = nodemailer.createTransport({
-    host: process.env.SMTP_HOST,
-    port: Number(process.env.SMTP_PORT) || 587,
-    secure: process.env.SMTP_SECURE === 'true',
-    auth: {
-      user: process.env.SMTP_USER,
-      pass: process.env.SMTP_PASS,
-    },
-  });
+  const resend = new Resend(process.env.RESEND_API_KEY);
 
   try {
-    await transporter.sendMail({
-      from: `"${name}" <${process.env.SMTP_USER}>`,
+    await resend.emails.send({
+      from: 'Portfolio Contact <onboarding@resend.dev>',
       replyTo: email,
       to: process.env.CONTACT_TO,
       subject: `Portfolio contact from ${name}`,
-      text: `Name: ${name}\nEmail: ${email}\n\n${message}`,
       html: `
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> <a href="mailto:${email}">${email}</a></p>

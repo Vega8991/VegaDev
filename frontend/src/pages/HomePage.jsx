@@ -54,7 +54,7 @@ export default function HomePage({ onNavigate }) {
           <div className="about-grid">
             <div className="about-portrait">
               <span className="corner tl">{h.portraitTl}</span>
-              <span className="glyph">V8</span>
+              <img src="/profile.jpg" alt="Vega" className="portrait-img" />
               <span className="corner br">{h.portraitBr}</span>
               <div className="badge">
                 <span className="sticker round">

@@ -73,11 +73,11 @@ export default function StackPage() {
           <div style={{ marginTop: 48, border: '3px solid var(--line)', padding: 28, background: 'var(--paper)' }}>
             <h4 style={{ fontFamily: 'Space Mono, monospace', textTransform: 'uppercase', fontSize: 13, letterSpacing: '0.06em', color: 'var(--muted)', marginBottom: 12 }}>{s.learning}</h4>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 16, alignItems: 'baseline' }}>
-              <span style={{ fontSize: 'clamp(28px, 4vw, 48px)', fontWeight: 700, letterSpacing: '-0.03em' }}>Next.js</span>
+              <span style={{ fontSize: 'clamp(28px, 4vw, 48px)', fontWeight: 700, letterSpacing: '-0.03em' }}>NestJS</span>
               <span style={{ fontSize: 'clamp(28px, 4vw, 48px)', fontWeight: 700, letterSpacing: '-0.03em' }}>·</span>
-              <span style={{ fontSize: 'clamp(28px, 4vw, 48px)', fontWeight: 700, letterSpacing: '-0.03em' }}>Testing</span>
+              <span style={{ fontSize: 'clamp(28px, 4vw, 48px)', fontWeight: 700, letterSpacing: '-0.03em' }}>Angular</span>
               <span style={{ fontSize: 'clamp(28px, 4vw, 48px)', fontWeight: 700, letterSpacing: '-0.03em' }}>·</span>
-              <span style={{ fontSize: 'clamp(28px, 4vw, 48px)', fontWeight: 700, letterSpacing: '-0.03em', color: 'var(--accent)' }}>AWS</span>
+              <span style={{ fontSize: 'clamp(28px, 4vw, 48px)', fontWeight: 700, letterSpacing: '-0.03em', color: 'var(--accent)' }}>n8n</span>
             </div>
           </div>
         </Reveal>

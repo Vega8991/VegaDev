@@ -3,7 +3,7 @@ export const PROJECTS = [
     id: "g-rank",
     num: "01",
     year: "2025",
-    stack: ["Angular", "NestJS", "TypeScript", "MongoDB"],
+    stack: ["React", "Express", "TypeScript", "MongoDB"],
     github: "https://github.com/Vega8991/g-rank",
     demo: "#",
     featured: true,
