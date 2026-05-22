@@ -59,7 +59,7 @@ export default function ContactPage() {
       <section className="hero-section shell" style={{ paddingTop: 40, paddingBottom: 40 }}>
         <Reveal>
           <span className="label" style={{ color: 'var(--muted)' }}>{c.kicker}</span>
-          <h1 className="hero" style={{ fontSize: 'clamp(60px, 12vw, 180px)' }}>
+          <h1 className="hero" style={{ fontSize: 'clamp(40px, 12vw, 180px)' }}>
             {c.titleA}{c.titleAccent && <><br /><span className="hero-accent-block">{c.titleAccent}</span></>}
           </h1>
         </Reveal>
